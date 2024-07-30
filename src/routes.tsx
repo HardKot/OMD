@@ -6,7 +6,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
 import Core from "~core";
-import i18n from "~i18n";
+import i18n from "./app/I18n";
 import gStyle from "~styles";
 
 import * as Screens from "src/screens";
@@ -28,6 +28,7 @@ import ArrowBack from "assets/icons/ArrowBack.svg";
 import useAccountStatus from "./hooks/use-account-status";
 import IsFavorite from "~components/dump/IsFavorite";
 import OurNeedYourNotification from "./screens/OurNeedYourNotification";
+import { AuthenticationScreen } from "./pages/authenticationScreen/ui/AuthenticationScreen";
 
 const TabNavigator = createBottomTabNavigator<TabNavigatorList>();
 
@@ -96,6 +97,11 @@ const RootRoutes: FC = () => {
 		case "NO_AUTHENTICATION": {
 			screenList = (
 				<>
+					<RootNavigation.Screen
+						name={'AuthenticationScreen'}
+						component={AuthenticationScreen}
+						options={{ headerShown: false }}
+					/>
 					<RootNavigation.Screen
 						name={"IntroAboutApp"}
 						component={Screens.IntroAboutApp}

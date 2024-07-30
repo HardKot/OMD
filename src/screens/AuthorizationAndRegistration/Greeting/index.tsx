@@ -12,7 +12,7 @@ import useAnimation from "./animated";
 import { ArrowButtonMask, ArrowButton, Bird } from "./components";
 
 import type { RootScreenProps } from "~types";
-import i18n from "~i18n";
+import i18n from "../../../app/I18n";
 import gStyle from "~styles";
 import { actions, useAppDispatch } from "~store";
 import * as StatusBar from "expo-status-bar";

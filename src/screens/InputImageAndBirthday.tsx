@@ -5,7 +5,7 @@ import { useFocusEffect } from "@react-navigation/native";
 import React, { useCallback } from "react";
 import { View, StyleSheet, Text, Platform, BackHandler, Dimensions } from "react-native";
 import auth from "@react-native-firebase/auth";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 import { Screen } from "~components/containers";
 
 import { ColorButton, SelectImageButton, SelectBirthday } from "~components/dump";

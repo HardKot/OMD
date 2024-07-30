@@ -5,7 +5,7 @@ import { Pressable, View, Text, StyleSheet, Animated, useWindowDimensions, PanRe
 import { ColorButton, SelectBirthday } from "~components/dump";
 import Tools from "~core";
 import { RootScreenProps } from "~types";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 import useUserInformation from "src/hooks/use-user-information";
 import {useDimensions} from "@react-native-community/hooks";
 

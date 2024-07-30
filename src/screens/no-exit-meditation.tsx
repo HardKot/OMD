@@ -39,7 +39,7 @@ const NoExitMeditation: RootScreenProps<"NoExitMeditation"> = ({ navigation, rou
 					Хочешь завершить медитацию, раньше окончания?
 				</DefaultText>
 				<Image
-					source={require("assets/Визуализация1.png")}
+					source={require("../../assets/old/Визуализация1.png")}
 					style={{ width: widthModal, height: (widthModal / 335) * 264 }}
 					resizeMode={"contain"}
 				/>

@@ -3,7 +3,7 @@
 import { useFocusEffect } from "@react-navigation/native";
 import React, { ElementRef, useCallback, useEffect, useRef, useState } from "react";
 import { Text, StyleSheet, View } from "react-native";
-import i18n from "~i18n";
+import i18n from "../../../app/I18n";
 import { Screen } from "~components/containers";
 
 import gStyle from "~styles";

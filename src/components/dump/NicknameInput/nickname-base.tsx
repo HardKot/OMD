@@ -13,7 +13,7 @@ import {
 	ViewStyle,
 } from "react-native";
 import Animated, { interpolateColor, useAnimatedStyle, useSharedValue, withTiming } from "react-native-reanimated";
-import i18n from "~i18n";
+import i18n from "../../../app/I18n";
 import gStyle from "~styles";
 import CheckMarkerWhite from "assets/icons/CheckMarkerWhite.svg";
 import CrossMarkerWhite from "assets/icons/CrossMarker_White.svg";

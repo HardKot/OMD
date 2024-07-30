@@ -7,7 +7,7 @@ import ViewFullWidth, { Direction, PositionElements } from "~components/layouts/
 import ViewPadding from "~components/layouts/view-padding";
 import DefaultText from "~components/Text/default-text";
 import ArrowDown from "assets/icons/Chevron_Down.svg";
-import i18n from "~i18n";
+import i18n from "../../app/I18n";
 import ViewPaddingList, { Direction as DirectionAxis } from "~components/containers/view-padding-list";
 
 interface ElementTimeDMDSegmentProperties {

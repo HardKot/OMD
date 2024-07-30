@@ -22,7 +22,7 @@ import Tools from "~core";
 import GoogleLogo from "~assets/icons/GoogleLogo.svg";
 import { ColorButton, ColorWithIconButton } from "~components/dump";
 import { RootScreenProps } from "~types";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 import gStyle from "~styles";
 
 import Bird from "assets/icons/BirdWhite.svg";
@@ -69,7 +69,7 @@ const SelectMethodAuthentication: RootScreenProps<"SelectMethodAuthentication"> 
 	const { window } = useDimensions();
 
 	return (
-		<ImageBackground style={{ flex: 1 }} source={require("~assets/mo-PtTbluAisCg-unsplash.png")}>
+		<ImageBackground style={{ flex: 1 }} source={require("../../assets/old/mo-PtTbluAisCg-unsplash.png")}>
 			{/* <StatusBar hidden /> */}
 			<SafeAreaView style={{ flex: 1, justifyContent: "space-between" }}>
 				<View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>

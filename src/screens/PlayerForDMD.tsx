@@ -10,7 +10,7 @@ import { RootScreenProps } from "~types";
 
 import { Audio, InterruptionModeAndroid, InterruptionModeIOS } from "expo-av";
 import { useAppSelector } from "~store";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 import gStyle from "~styles";
 import { SharedElement } from "react-navigation-shared-element";
 import * as StatusBar from "expo-status-bar";
@@ -97,7 +97,7 @@ const PlayerForDMD: RootScreenProps<"PlayerForDMD"> = ({ navigation, route }) =>
 						resolve(undefined);
 					}),
 					new Promise(async (resolve, reject) => {
-						await triggerSound.loadAsync(require("assets/triggerSounds/b51f4cc4-55e4-4734-97e6-8d581a201a2a.mp3"));
+						await triggerSound.loadAsync(require("../../assets/old/triggerSounds/b51f4cc4-55e4-4734-97e6-8d581a201a2a.mp3"));
 						resolve(undefined);
 						triggerSound.setOnPlaybackStatusUpdate(status => {
 							if (status.isLoaded && status.didJustFinish) {

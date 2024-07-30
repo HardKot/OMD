@@ -4,7 +4,7 @@ import { LinearGradient } from "expo-linear-gradient";
 import React from "react";
 import { Pressable } from "react-native";
 import ElementSimpleText from "~components/Text/element-simple-text";
-import i18n from "~i18n";
+import i18n from "../../../app/I18n";
 
 interface GradientSmallButtonProperty {
 	onPress: () => void;

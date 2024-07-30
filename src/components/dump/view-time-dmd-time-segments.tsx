@@ -8,7 +8,7 @@ import DateTime from "src/global/class/date-time";
 import useSizeElement from "src/hooks/use-size-element";
 import useTimeNotificationDMD, { TimeSegments } from "src/hooks/use-time-notification-dmd";
 import ViewPaddingList, { Direction } from "~components/containers/view-padding-list";
-import i18n from "~i18n";
+import i18n from "../../app/I18n";
 import ElementTimeDMDSegment from "./element-time-dmd-segment";
 import useNotificationStatus from "../../hooks/use-notification-status";
 

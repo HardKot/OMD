@@ -3,7 +3,7 @@
 import React from "react";
 import { View } from "react-native";
 import DefaultText from "~components/Text/default-text";
-import i18n from "~i18n";
+import i18n from "../../app/I18n";
 
 interface MeditationTimeInBoxProperty {
 	milliseconds: number;

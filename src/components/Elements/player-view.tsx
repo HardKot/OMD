@@ -5,7 +5,7 @@ import { View, Text, ActivityIndicator, Pressable, ImageSourcePropType } from "r
 
 import { TimeLine, PlayerControl } from "src/components/dump";
 
-import i18n from "~i18n";
+import i18n from "../../app/I18n";
 import gStyle from "~styles";
 
 import MeditationTimeInBox from "src/components/dump/meditation-time-in-box";

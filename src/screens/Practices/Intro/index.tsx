@@ -4,7 +4,7 @@ import React, { ElementRef, useCallback, useEffect, useRef, useState } from "rea
 import { StyleSheet, Text, View, Image, Button, Pressable, Dimensions } from "react-native";
 import Animated, { FadeIn, FadeOut, runOnJS } from "react-native-reanimated";
 import Swiper from "react-native-swiper";
-import i18n from "~i18n";
+import i18n from "../../../app/I18n";
 
 import { ColorButton, TextButton } from "~components/dump";
 

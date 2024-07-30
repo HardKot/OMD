@@ -50,7 +50,7 @@ const ChangeColorDot: RootScreenProps<"ChangeColorDot"> = ({ navigation, route }
 						value={selectColor.color}
 					>
 						<Panel2
-							imageSource={require("assets/colorSelector.png")}
+							imageSource={require("../../assets/old/colorSelector.png")}
 							boundedThumb
 							thumbSize={19}
 							style={{ borderRadius: 0 }}

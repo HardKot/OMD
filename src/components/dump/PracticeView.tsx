@@ -8,7 +8,7 @@ import Animated, * as AnimatedTools from "react-native-reanimated";
 import Lock from "assets/icons/Lock.svg";
 import Heart from "assets/icons/Heart_Red.svg";
 import Play from "assets/icons/Play_Violet.svg";
-import i18n from "~i18n";
+import i18n from "../../app/I18n";
 import gStyle from "~styles";
 
 import { fontStyle, viewStyle } from "~styles";

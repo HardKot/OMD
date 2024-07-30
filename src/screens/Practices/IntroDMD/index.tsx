@@ -2,7 +2,7 @@
 
 import { StyleSheet, Text, View, Image, Pressable, Platform, Dimensions } from "react-native";
 import React, { useCallback } from "react";
-import i18n from "~i18n";
+import i18n from "../../../app/I18n";
 
 import Core from "~core";
 import { ColorButton } from "~components/dump";
@@ -28,7 +28,7 @@ const DMDIntro: RootScreenProps<"DMDIntro"> = ({ navigation }) => {
 
 	return (
 		<View style={[styles.background, { paddingBottom: 20 + insets.bottom }]}>
-			<Image source={require("assets/Group480955621.png")} style={styles.image} />
+			<Image source={require("../../../../assets/old/Group480955621.png")} style={styles.image} />
 			<View style={styles.content}>
 				<Text style={styles.title}>{i18n.t("cf6383b7-a22c-40c2-8c3f-0d107ea6d089")}</Text>
 				<Text

@@ -12,7 +12,7 @@ import { Dimensions, Image, Platform, StyleSheet, Text, View } from "react-nativ
 import { ColorButton, SelectTime, TextButton } from "~components/dump";
 
 import gStyle from "~styles";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 
 import { RootScreenProps } from "~types";
 import { SharedElement } from "react-navigation-shared-element";

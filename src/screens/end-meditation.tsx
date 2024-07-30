@@ -39,7 +39,7 @@ const EndMeditation: RootScreenProps<"EndMeditation"> = ({ navigation, route }) 
 					Пусть с этой минуты твоя жизнь станет радостней
 				</DefaultText>
 				<Image
-					source={require("assets/Визуализация1.png")}
+					source={require("../../assets/old/Визуализация1.png")}
 					style={{ width: widthModal, height: (widthModal / 335) * 264 }}
 					resizeMode={"contain"}
 				/>

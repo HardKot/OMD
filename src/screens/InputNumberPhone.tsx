@@ -6,7 +6,7 @@ import { useHeaderHeight } from "@react-navigation/elements";
 
 import { ColorButton, NumberInput } from "~components/dump";
 import { Screen } from "~components/containers";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 import type { RootScreenProps } from "~types";
 import ViewUserChange from "~components/containers/view-user-change";
 import { useAnimatedStyle, useSharedValue, withTiming } from "react-native-reanimated";

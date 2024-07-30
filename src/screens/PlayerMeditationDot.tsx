@@ -9,7 +9,7 @@ import core from "~core";
 import { TimeLine } from "~components/dump";
 
 import { RootScreenProps } from "~types";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 
 import { useDimensions } from "@react-native-community/hooks";
 import useMeditation from "src/hooks/use-meditation";
@@ -129,7 +129,7 @@ const PlayerMeditationDot: RootScreenProps<"PlayerMeditationDot"> = ({ navigatio
 									navigation.navigate("ChangeColorDot");
 								}}
 							>
-								<Image source={require("assets/rgbButton.png")} style={{ width: "100%", height: "100%" }} />
+								<Image source={require("../../assets/old/rgbButton.png")} style={{ width: "100%", height: "100%" }} />
 							</Pressable>
 						</Animated.View>
 						<Animated.View style={{ alignSelf: "flex-start", marginTop: 17 }} entering={FadeIn} exiting={FadeOut}>

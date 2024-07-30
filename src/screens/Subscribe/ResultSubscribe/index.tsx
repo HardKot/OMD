@@ -7,7 +7,7 @@ import Fail from "~assets/Menu/Close_MD.svg"
 import Tools from "~core";
 
 import Check from "./assets/Check.svg";
-import i18n from "~i18n";
+import i18n from "../../../app/I18n";
 import { actions, useAppDispatch } from "~store";
 
 const ResultSubscribeScreen = ({ route = { params: { status: "Edit" } }, navigation }) => {

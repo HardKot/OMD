@@ -14,7 +14,7 @@ import {
 	Platform,
 } from "react-native";
 import Tools from "~core";
-import i18n from "~i18n";
+import i18n from "../../app/I18n";
 import gStyle from "~styles";
 
 import Headphones from "assets/icons/Headphones_gray.svg";

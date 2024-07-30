@@ -10,7 +10,7 @@ var height = Dimensions.get("window").height;
 
 import { ColorButton, UserButton } from "~components/dump";
 import { DoubleColorView } from "~components/containers";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 import { CarouselPractices } from "~components/dump";
 import { useFocusEffect } from "@react-navigation/native";
 import { actions, useAppDispatch, useAppSelector } from "~store";

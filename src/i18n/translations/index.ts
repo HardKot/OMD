@@ -1,4 +1,4 @@
-import ru from "./ru-RU.json";
+import ru from "~assets/translations/ru-RU.json";
 
 export default {
   "ru-RU": ru,

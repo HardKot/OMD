@@ -4,7 +4,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { Audio } from "expo-av";
 import React from "react";
 import BackgroundSound from "src/backgroundSound";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 import { useAppSelector } from "~store";
 
 const useBackgroundSound = (shouldPlay: boolean) => {

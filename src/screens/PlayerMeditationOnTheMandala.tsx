@@ -28,7 +28,7 @@ import useTimer from "src/hooks/use-timer";
 import BackgroundSoundButton from "~components/dump/background-sound-button";
 
 import LockIcon from "assets/icons/Lock.svg";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 
 Notifications.setNotificationHandler({
 	handleNotification: async () => ({

@@ -12,7 +12,7 @@ import Animated, {
 import Arrow from "assets/icons/Shavron22.svg";
 import Tools from "~core";
 import core from "~core";
-import i18n from "~i18n";
+import i18n from "../../app/I18n";
 
 import { StatisticPeriod } from "~types";
 

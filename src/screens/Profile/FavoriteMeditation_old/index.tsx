@@ -5,7 +5,7 @@ import { View, Text, FlatList, StyleSheet, ScrollView, TouchableOpacity, Image }
 import { DoubleColorView } from "~components/containers";
 import core from "~core";
 import { RootScreenProps } from "src/types";
-import i18n from "~i18n";
+import i18n from "../../../app/I18n";
 
 import { useFavoriteMeditation } from "./hooks";
 import { StatusBar } from "expo-status-bar";

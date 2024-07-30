@@ -4,7 +4,7 @@ import { useFocusEffect } from "@react-navigation/native";
 import React from "react";
 import { View, Pressable, Text, TextInput, Image, StyleSheet, Keyboard, Dimensions } from "react-native";
 import { ColorButton, TextButton } from "~components/dump";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 import { actions, useAppDispatch } from "~store";
 import gStyle from "~styles";
 import { Gender, RootScreenProps } from "~types";
@@ -62,7 +62,7 @@ const InputNameAndSelectGender: RootScreenProps<"InputNameAndSelectGender"> = ({
 			<View style={{ position: "absolute", bottom: 0, width: "100%" }}>
 				{Dimensions.get("window").height >= 815 ? (
 					<Image
-						source={require("assets/asdjkdsa.png")}
+						source={require("../../assets/old/asdjkdsa.png")}
 						style={{ alignSelf: "center", width: 249, height: 229, transform: [{ translateY: 1 }] }}
 					/>
 				) : null}
@@ -118,7 +118,7 @@ const InputNameAndSelectGender: RootScreenProps<"InputNameAndSelectGender"> = ({
 										setValue({ gender: Gender.MALE });
 									}}
 								>
-									<Image source={require("assets/man.png")} style={{ flex: 1 }} resizeMode={"contain"} />
+									<Image source={require("../../assets/old/man.png")} style={{ flex: 1 }} resizeMode={"contain"} />
 									<View style={[styles.generalButton, gender === Gender.MALE ? { backgroundColor: "#9765A8" } : null]}>
 										<Text style={[styles.generalText, gender === Gender.MALE ? { color: "#FFF" } : null]}>
 											{i18n.t("M")}
@@ -146,7 +146,7 @@ const InputNameAndSelectGender: RootScreenProps<"InputNameAndSelectGender"> = ({
 										setValue({ gender: Gender.FEMALE });
 									}}
 								>
-									<Image source={require("assets/fam.png")} style={{ flex: 1 }} resizeMode={"contain"} />
+									<Image source={require("../../assets/old/fam.png")} style={{ flex: 1 }} resizeMode={"contain"} />
 									<View
 										style={[styles.generalButton, gender === Gender.FEMALE ? { backgroundColor: "#9765A8" } : null]}
 									>

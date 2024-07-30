@@ -4,7 +4,7 @@ import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import core from "~core";
 import { RootScreenProps } from "~types";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 
 const ErrorScreen: RootScreenProps<"Error"> = ({ navigation, route }) => {
 	const { message } = route.params;

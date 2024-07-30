@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Image, Platform } from "react-native";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 import { RootScreenProps } from "~types";
 import { ColorButton } from "~components/dump";
 import ScreenModal from "~components/containers/screen-modal";
@@ -33,7 +33,7 @@ const ByMaySubscribe: RootScreenProps<"ByMaySubscribe"> = ({ navigation }) => {
 				<DefaultText color="rgba(64, 64, 64, 0.71)" style={{ textAlign: "center" }}>
 					{i18n.t("e505cf76-d64a-4152-86b0-f81b41c9035f")}
 				</DefaultText>
-				<Image source={require("assets/sofaMan.png")} style={{ height: 90, width: 138 }} resizeMode={"contain"} />
+				<Image source={require("../../assets/old/sofaMan.png")} style={{ height: 90, width: 138 }} resizeMode={"contain"} />
 				<DescriptionText color={"#9765A8"} textAlign={TextAlign.Center}>
 					{
 						Platform.OS === 'ios' ? "Первые 14 дней бесплатно, 199₽ в месяц,\nежемесячная оплата" : <><CustomPartText fontWeight="500">{i18n.t("e9abbcbe-6d0b-46b6-a777-dc3e73a3dbac")}</CustomPartText>

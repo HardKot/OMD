@@ -3,7 +3,7 @@
 import React from "react";
 import { ColorValue, StyleSheet, Text, View, ViewProps } from "react-native";
 import { Feather, MaterialIcons } from "@expo/vector-icons";
-import i18n from "~i18n";
+import i18n from "../../app/I18n";
 
 import Tools from "~core";
 

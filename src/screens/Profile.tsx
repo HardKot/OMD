@@ -13,7 +13,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import Heart from "assets/icons/Interface/Vector.svg";
 import Star from "assets/icons/Star.svg";
 import { Dump } from "~components/index";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 
 const getStartWeek = () => {
 	const date = new Date();

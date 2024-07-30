@@ -1,0 +1,1 @@
+export { AuthenticationApple, AuthenticationApple as default } from "./ui/AuthenticationApple"

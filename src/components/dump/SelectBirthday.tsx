@@ -7,7 +7,7 @@ import type { FC } from "react";
 import type { ViewProps } from "react-native";
 import Tools from "~core";
 import { createArrayLength } from "~tools";
-import i18n from "~i18n";
+import i18n from "../../app/I18n";
 
 const toDay = new Date();
 toDay.setFullYear(toDay.getFullYear());

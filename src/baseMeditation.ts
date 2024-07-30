@@ -1,7 +1,7 @@
 /** @format */
 
 import { State } from "src/types";
-import i18n from "~i18n";
+import i18n from "./app/I18n";
 
 export const MeditationOnTheMandala: State.BasePractice = {
 	id: "32c996f7-13e6-4604-966d-b96a8bf0e7c3",
@@ -119,7 +119,7 @@ export const PlayerMeditationDot: State.BasePractice = {
 
 export const MeditationOnTheCandle: State.BasePractice = {
 	id: "e6e39f7b-d2c7-4e57-8f97-773838695f7e",
-	image: require("~assets/candale.png"),
+	image: require("../assets/old/candale.png"),
 	description:
 		"Это непревзойденный инструмент для тех , кто с трудом усиживается на месте и имеет проблемы со сосредоточением своего внимания.",
 	name: "Медитация на пламя свечи «Тратака»",

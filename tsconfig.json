@@ -18,7 +18,16 @@
 			"~tools": ["./src/tools"],
 			"~types": ["./src/types"],
 			"~i18n": ["./src/i18n"],
-			"~styles": ["./src/styles"]
+			"~styles": ["./src/styles"],
+
+
+			"@/shared/*": ["./src/shared/*"],
+			"@/entities/*": ["./src/entities/*"],
+			"@/features/*": ["./src/features/*"],
+			"@/widgets/*": ["./src/widgets/*"],
+			"@/pages/*": ["./src/pages/*"],
+			"@/app/*": ["./src/app/*"],
+			"@/assets/*": ["./assets/*"],
 		},
 		"typeRoots": ["./node_modules/@types"],
 		"experimentalDecorators": true

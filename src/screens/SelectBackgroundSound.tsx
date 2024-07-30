@@ -2,7 +2,7 @@
 
 import React, { ElementRef, useRef } from "react";
 import { Image, Pressable, StyleSheet, Text, View } from "react-native";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 
 import { TimeLine } from "~components/dump";
 import Tools from "~core";

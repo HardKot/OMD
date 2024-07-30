@@ -7,7 +7,7 @@ import * as RN from "react-native";
 import * as Dump from "src/components/dump";
 
 import Animated, { useAnimatedStyle, useSharedValue } from "react-native-reanimated";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 import gStyle, { viewStyle } from "~styles";
 
 import { GeneralCompositeScreenProps } from "~types";
@@ -270,7 +270,7 @@ const Main: GeneralCompositeScreenProps = ({ navigation }) => {
 					}}
 				>
 					<RN.ImageBackground
-						source={require("assets/mount-kilimanjaro-g2cd7e043a_19202.png")}
+						source={require("../../assets/old/mount-kilimanjaro-g2cd7e043a_19202.png")}
 						style={styles.imageGreeting}
 						imageStyle={{ top: -40 }}
 					>

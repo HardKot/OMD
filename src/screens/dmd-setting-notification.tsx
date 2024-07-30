@@ -5,7 +5,7 @@ import { SafeAreaView, Text, StyleSheet, Image, Pressable, View, Platform } from
 import { ColorButton, TextButton } from "~components/dump";
 import { actions, useAppDispatch, useAppSelector } from "~store";
 import { Breathing, RootScreenProps } from "~types";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 import gStyle from "~styles";
 import { useFocusEffect } from "@react-navigation/native";
 import { useDimensions } from "@react-native-community/hooks";

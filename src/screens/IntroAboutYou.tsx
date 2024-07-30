@@ -3,7 +3,7 @@
 import React from "react";
 import { StyleSheet, Text, Image, View, Pressable } from "react-native";
 
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 import gStyle from "~styles";
 import { RootScreenProps } from "~types";
 import { TextButton } from "~components/dump";
@@ -18,7 +18,7 @@ const IntroScreen: RootScreenProps<"IntroAboutYou"> = ({ navigation }) => {
 		<Screen backgroundColor={"#9765A8"} styleScreen={{ justifyContent: "flex-end", paddingBottom: 45 }} headerHidden>
 			<View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
 				<Image
-					source={require("assets/BirdIntro.png")}
+					source={require("../../assets/old/BirdIntro.png")}
 					resizeMode={"contain"}
 					style={{
 						height: "70%",

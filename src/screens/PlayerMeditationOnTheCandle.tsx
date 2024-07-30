@@ -9,7 +9,7 @@ import Tools from "~core";
 import core from "~core";
 
 import { RootScreenProps } from "~types";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 
 import { useDimensions } from "@react-native-community/hooks";
 import useIsActivateSubscribe from "src/hooks/use-is-activate-subscribe";
@@ -41,7 +41,7 @@ const PlayerMeditationOnTheCandle: RootScreenProps<"PlayerMeditationOnTheCandle"
 	const timer = useTimer(practiceLength, () => navigation.navigate("EndMeditation"));
 
 	const meditation = isNeedVoice
-		? useMeditation([require("~assets/Candle.mp3")], timer.currentMilliseconds, { autoPlay: true })
+		? useMeditation([require("../../assets/old/Candle.mp3")], timer.currentMilliseconds, { autoPlay: true })
 		: undefined;
 
 	const video = useRef<Video>(null);

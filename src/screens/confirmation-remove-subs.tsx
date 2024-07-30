@@ -9,7 +9,7 @@ import CloseCross from "~components/Elements/close-cross";
 import CustomPartText from "~components/Text/custom-part-text";
 import DefaultText from "~components/Text/default-text";
 import HeaderText from "~components/Text/header-text";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 import { actions, useAppDispatch } from "~store";
 import { RootScreenProps } from "~types";
 

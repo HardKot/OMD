@@ -10,7 +10,7 @@ import { TimeLine, PlayerControl, ColorButton, IsFavorite } from "~components/du
 
 import { RootScreenProps } from "~types";
 import BackgroundSound from "src/backgroundSound";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 
 import { Audio, InterruptionModeAndroid, InterruptionModeIOS } from "expo-av";
 import core from "~core";

@@ -2,7 +2,7 @@
 
 import React, { useRef } from "react";
 import { StyleSheet, TextInput, View, Keyboard, Pressable } from "react-native";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 import gStyle from "~styles";
 
 import { ColorButton, SelectImageButton, NicknameInput, NumberInput } from "~components/dump";

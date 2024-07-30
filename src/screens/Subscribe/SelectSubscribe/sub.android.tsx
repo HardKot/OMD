@@ -7,7 +7,7 @@ import { useAnimatedStyle, useSharedValue, withSpring } from "react-native-reani
 
 import { DoubleColorView } from "~components/containers";
 import { ColorButton } from "~components/dump";
-import i18n from "~i18n";
+import i18n from "../../../app/I18n";
 import gStyle from "~styles";
 
 import { RootScreenProps, SubscribeType } from "~types";

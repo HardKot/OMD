@@ -10,7 +10,7 @@ import DoubleColorView, {
 import { SharedElement } from "react-navigation-shared-element";
 import gStyle from "~styles";
 import { actions, useAppDispatch } from "~store";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 import Repeat from "assets/icons/Repeat.svg";
 import { LinearGradient } from "expo-linear-gradient";
 import { useFocusEffect } from "@react-navigation/native";

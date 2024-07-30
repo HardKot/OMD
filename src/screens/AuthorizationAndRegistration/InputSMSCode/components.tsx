@@ -4,7 +4,7 @@ import React, { FC, useRef, useState, forwardRef, useImperativeHandle, useEffect
 import { ActivityIndicator, FlatList, Pressable, StyleSheet, Text, TextInput, View, ViewStyle } from "react-native";
 
 import Tools from "~core";
-import i18n from "~i18n";
+import i18n from "../../../app/I18n";
 
 const countCode = 6;
 const keyList = [0, 1, 2, 3, 4, 5];

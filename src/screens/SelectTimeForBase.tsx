@@ -10,7 +10,7 @@ import { Image, StyleSheet, Switch, Text, View } from "react-native";
 import { ColorButton, SelectTime, TextButton } from "~components/dump";
 
 import gStyle from "~styles";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 
 import { RootScreenProps } from "~types";
 import { useFocusEffect } from "@react-navigation/native";

@@ -8,7 +8,7 @@ import Heart from "assets/icons/Heart_Red.svg";
 import core from "~core";
 import { PracticesMeditation, State } from "~types";
 
-import i18n from "~i18n";
+import i18n from "../../app/I18n";
 import { SharedElement } from "react-navigation-shared-element";
 import IsFavorite from "./IsFavorite";
 

@@ -1,5 +1,5 @@
 /** @format */
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 
 import React from "react";
 import {StyleSheet, Text, View, TouchableOpacity, Switch, Pressable, Linking} from "react-native";

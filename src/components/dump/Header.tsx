@@ -5,7 +5,7 @@ import React from "react";
 import { View, Text, StyleSheet, Pressable, StyleProp, ViewStyle } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import UserButton from "./Buttons/User";
-import i18n from "~i18n";
+import i18n from "../../app/I18n";
 import gStyle from "~styles";
 import { TabNavigatorList, RootStackList } from "~types";
 import { BottomTabNavigationProp } from "@react-navigation/bottom-tabs";

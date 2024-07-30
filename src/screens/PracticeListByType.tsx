@@ -8,7 +8,7 @@ import Tools from "~core";
 import { PracticesMeditation, RootScreenProps, State } from "~types";
 import { CarouselPractices, ColorButton, IsFavorite } from "~components/dump";
 import { DoubleColorView } from "~components/containers";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 import DescriptionPrentices from "assets/descriptionPrentices.json";
 import { actions, useAppDispatch } from "~store";
 import { Converter, Request } from "~api";

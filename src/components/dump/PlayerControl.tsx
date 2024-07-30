@@ -8,7 +8,7 @@ import ArrowLeft from "assets/icons/ControlButton_Left.svg";
 import PauseIcon from "assets/icons/ControlButton_Pause.svg";
 import PlayIcon from "assets/icons/ControlButton_Play.svg";
 import core from "~core";
-import i18n from "~i18n";
+import i18n from "../../app/I18n";
 
 import { useDimensions } from "@react-native-community/hooks";
 

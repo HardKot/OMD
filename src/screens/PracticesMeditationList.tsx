@@ -12,7 +12,7 @@ import {
 	View,
 } from "react-native";
 import { FlatList } from "react-native-gesture-handler";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 import gStyle from "~styles";
 import { DoubleColorView } from "~components/containers";
 import Tools from "~core";
@@ -29,25 +29,25 @@ const CategoryMeditation: {
 }[] = [
 	{
 		name: "71277706-2f5d-4ce8-bf26-d680176d3fb8",
-		image: require("assets/practicesImage/relaxation.png"),
+		image: require("../../assets/old/practicesImage/relaxation.png"),
 		description: "ec0c8421-03d1-4755-956d-66a84d81d74a",
 		id: PracticesMeditation.RELAXATION,
 	},
 	{
 		name: "8566b563-b307-4943-ab52-d51c7e806a4c",
-		image: require("assets/practicesImage/directionalVisualizations.png"),
+		image: require("../../assets/old/practicesImage/directionalVisualizations.png"),
 		description: "bb340c18-2a8b-4b7b-8250-80a865dca9b4",
 		id: PracticesMeditation.DIRECTIONAL_VISUALIZATIONS,
 	},
 	{
 		name: "c15d823e-8dd8-4eb7-b9f5-87c9845ac397",
-		image: require("assets/practicesImage/breathingPractices.png"),
+		image: require("../../assets/old/practicesImage/breathingPractices.png"),
 		description: "c54bff96-21eb-4f10-8ad6-090e06f2eef9",
 		id: PracticesMeditation.BREATHING_PRACTICES,
 	},
 	{
 		name: "0d63a21e-eecc-45cc-9085-86b97c88d713",
-		image: require("assets/practicesImage/basic.png"),
+		image: require("../../assets/old/practicesImage/basic.png"),
 		description: "ef09ec88-afda-4fef-b68b-02b433919e50",
 		id: PracticesMeditation.BASIC,
 	},

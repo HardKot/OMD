@@ -6,7 +6,7 @@ import { View, Text, StyleSheet, Pressable, FlatList } from "react-native";
 import useTimeNotificationDMD, { TimeSegments } from "src/hooks/use-time-notification-dmd";
 import ScreenModal, { PositionContentBlock } from "~components/containers/screen-modal";
 import { ColorButton, SelectTime } from "~components/dump";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 import { actions, useAppDispatch, useAppSelector } from "~store";
 import { RootScreenProps } from "~types";
 

@@ -20,3 +20,7 @@ rules:
   unicorn/filename-case:
     - "error"
     - "case": "pascalCase"
+  unicorn/expiring-todo-comments: "off"
+  unicorn/no-null: "off"
+  import/extensions: "off"
+  unicorn/prefer-module: "off"

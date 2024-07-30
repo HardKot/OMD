@@ -18,7 +18,7 @@ import { TextButton } from "~components/dump";
 import BirdWhite from "assets/icons/BirdWhiteS.svg";
 import BirdViolet from "assets/icons/BitrdViolet.svg";
 import gStyles from "~styles";
-import i18n from "~i18n";
+import i18n from "../../app/I18n";
 import CircleCheck from "assets/icons/CircleCheck";
 import { useAppDispatch } from "~store";
 import { useNavigation } from "@react-navigation/native";

@@ -10,7 +10,7 @@ import { RootScreenProps } from "~types";
 import { actions, useAppDispatch, useAppSelector } from "~store";
 import { converterDisplayNameToNickname, generateNickname } from "~tools";
 import NicknameBase, { StatusCheck } from "~components/dump/NicknameInput/nickname-base";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 
 import CheckMarkerGreen from "~assets/icons/CheckMarkerGreen.svg";
 import { useFocusEffect } from "@react-navigation/native";

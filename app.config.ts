@@ -5,8 +5,8 @@ import { version } from "./package.json";
 
 function generateConfig(): ExpoConfig {
 	const appName =
-		process.env.APP_VARIANT === "dev" ? "DMD Dev" : process.env.APP_VARIANT === "prev" ? "DMD beta" : "DMD";
-	const appUrl = "com.evodigital.dmdmeditation";
+		process.env.APP_VARIANT === "dev" ? "Open Meditation Dev" : process.env.APP_VARIANT === "prev" ? "Open Meditation beta" : "Open Meditation";
+	const appUrl = "com.batuhno.openmeditation";
 	const toDay = new Date();
 	const date = {
 		date: toDay.getDate() < 10 ? "0" + toDay.getDate() : toDay.getDate(),
@@ -43,6 +43,9 @@ function generateConfig(): ExpoConfig {
 				ios: {
 					useFrameworks: "static",
 				},
+				android: {
+					minSdkVersion: 24
+				}
 			},
 		],
 	];

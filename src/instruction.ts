@@ -1,6 +1,6 @@
 /** @format */
 
-import i18n from "~i18n";
+import i18n from "./app/I18n";
 import { State } from "~types";
 
 export const relaxation: State.Instruction = {

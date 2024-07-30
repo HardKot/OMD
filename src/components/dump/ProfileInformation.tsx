@@ -5,7 +5,7 @@ import RN, { StyleSheet, View } from "react-native";
 
 import Tools from "~core";
 import TextButton from "./Buttons/Text";
-import i18n from "~i18n";
+import i18n from "../../app/I18n";
 
 import SelectImageButton from "./Buttons/SelectImage";
 import useIsActivateSubscribe from "src/hooks/use-is-activate-subscribe";

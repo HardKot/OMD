@@ -1,0 +1,1 @@
+export { AuthenticationPhone, AuthenticationPhone as default } from "./ui/AuthenticationPhone"

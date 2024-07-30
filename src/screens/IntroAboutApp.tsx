@@ -3,7 +3,7 @@
 import React from "react";
 import { StyleSheet, Text, Image, View, Pressable, Dimensions } from "react-native";
 
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 import gStyle from "~styles";
 import { RootScreenProps } from "~types";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -25,7 +25,7 @@ const IntroScreen: RootScreenProps<"IntroAboutApp"> = ({ navigation }) => {
 				}}
 			>
 				<Image
-					source={require("assets/professorNoHaveFoot.png")}
+					source={require("../../assets/old/professorNoHaveFoot.png")}
 					resizeMode={"contain"}
 					style={{
 						width: "180%",

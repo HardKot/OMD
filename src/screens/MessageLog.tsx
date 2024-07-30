@@ -2,7 +2,7 @@
 
 import React from "react";
 import { SafeAreaView, Text, StyleSheet, View, Pressable } from "react-native";
-import i18n from "~i18n";
+import i18n from "../app/I18n";
 import { ColorButton } from "~components/dump";
 import gStyle from "~styles";
 import { RootScreenProps } from "~types";

@@ -3,7 +3,7 @@
 import React, { FC, useState, useEffect } from "react";
 import { TextInput, View } from "react-native";
 import isMobilePhone from "validator/lib/isMobilePhone";
-import i18n from "~i18n";
+import i18n from "../../app/I18n";
 import gStyle from "~styles";
 
 import listCodePhoneCountry from "assets/ListCodePhoneCountry.json";
